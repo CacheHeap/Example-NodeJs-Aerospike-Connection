@@ -1,0 +1,27 @@
+{
+  "name": "example-nodejs-aerospike-connection",
+  "version": "1.0.0",
+  "description": "Demostrates connecting to an Aerospike db with javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:a",
+    "start:c": "node aerospike-example-callbacks.js",
+    "start:p": "node aerospike-example-promises.js",
+    "start:a": "node aerospike-example-async-await.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CacheHeap/Example-NodeJs-Aerospike-Connection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CacheHeap/Example-NodeJs-Aerospike-Connection/issues"
+  },
+  "homepage": "https://github.com/CacheHeap/Example-NodeJs-Aerospike-Connection#readme",
+  "dependencies": {
+    "aerospike": "^5.4.0"
+  }
+}
